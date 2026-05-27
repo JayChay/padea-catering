@@ -341,7 +341,13 @@ def build_order_email(caterer: dict, contacts: list, sessions_data: list, meal_s
     to_emails = [c["email"] for c in contacts if c["role"] == "primary"]
     cc_emails = [c["email"] for c in contacts if c["cc_on_orders"] and c["role"] != "primary"]
 
-    school_names = " & ".join(s["school_name"] for s in sessions_data)
+    seen = set()
+    unique_schools = []
+    for s in sessions_data:
+        if s["school_name"] not in seen:
+            seen.add(s["school_name"])
+            unique_schools.append(s["school_name"])
+    school_names = " & ".join(unique_schools)
     week_dates = sorted(s["session_date"] for s in sessions_data)
     week_str = f"week of {week_dates[0].strftime('%d %b %Y')}"
 
