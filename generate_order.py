@@ -156,8 +156,32 @@ def get_attendance(session_id: str, target_date: date) -> dict:
 # ── meal selection via Claude ─────────────────────────────────────────────────
 
 def select_meals_mock(caterer: dict, sessions_for_caterer: list, menu_items: list) -> dict:
-    """Mock meal selection — picks the first N items evenly. Used with --mock-ai."""
+    """Mock meal selection — picks the first N restriction-safe items evenly. Used with --mock-ai."""
     total_meals = sum(s["meal_count"] for s in sessions_for_caterer)
+
+    # Collect all restrictions across every session for this caterer
+    all_restrictions = set()
+    for s in sessions_for_caterer:
+        all_restrictions.update(s.get("dietary_summary", []))
+
+    # Filter out items that violate any hard restriction
+    def is_safe(item):
+        if ("halal" in all_restrictions or "no_pork" in all_restrictions) and item.get("contains_pork"):
+            return False
+        if "no_beef" in all_restrictions and item.get("contains_beef"):
+            return False
+        if "no_shellfish" in all_restrictions and item.get("contains_shellfish"):
+            return False
+        if "no_fish" in all_restrictions and item.get("contains_fish"):
+            return False
+        if "no_red_meat" in all_restrictions and item.get("contains_red_meat"):
+            return False
+        return True
+
+    safe_items = [item for item in menu_items if is_safe(item)]
+    if len(safe_items) < 4:
+        safe_items = menu_items  # fallback if filtering leaves too few options
+
     if total_meals >= caterer["min_order_6_items"]:
         max_items = 6
     elif total_meals >= caterer["min_order_5_items"]:
@@ -165,7 +189,7 @@ def select_meals_mock(caterer: dict, sessions_for_caterer: list, menu_items: lis
     else:
         max_items = 4
 
-    selected = [item["name"] for item in menu_items[:max_items]]
+    selected = [item["name"] for item in safe_items[:max_items]]
     session_allocations = {}
     for s in sessions_for_caterer:
         key = f"{s['school_name']} {s['day_of_week']}"
@@ -179,7 +203,7 @@ def select_meals_mock(caterer: dict, sessions_for_caterer: list, menu_items: lis
     return {
         "selected_items": selected,
         "session_allocations": session_allocations,
-        "reasoning": "[mock] First N items selected evenly for demo purposes.",
+        "reasoning": "[mock] First N restriction-safe items selected evenly for demo purposes.",
     }
 
 
