@@ -1,0 +1,17 @@
+id,session_id,session_date,menu_item_id,overall_rating,quality_rating,notes,submitted_by,created_at
+bdceb5e9-a4f3-4500-b89e-90605115e193,fab707a1-b32d-4fe6-8a91-e58e6a9147d6,2026-04-28,fd7fcd01-603b-4eef-8cac-b26aed3004ea,5,5,"Most popular item of the night, students asked for it again",Triet,2026-05-28T10:44:32.476918+00:00
+478a07b6-8a2f-4ed7-8089-e7d4358de533,fab707a1-b32d-4fe6-8a91-e58e6a9147d6,2026-04-28,6b028def-1313-46cf-be69-10875ce182cd,4,3,Good but sauce was too sweet for some students,Triet,2026-05-28T10:44:32.476918+00:00
+ab651ce7-0ed9-4475-b59f-ca2f007c7235,fab707a1-b32d-4fe6-8a91-e58e6a9147d6,2026-04-28,9947ed18-fda3-4f39-9e7a-e602b6a4fea7,2,2,"Arrived cold, texture was off — avoid this one",Triet,2026-05-28T10:44:32.476918+00:00
+713ac1e6-95d9-42eb-9ab0-04a5eae5da70,fab707a1-b32d-4fe6-8a91-e58e6a9147d6,2026-04-28,09041330-53ef-4c48-9582-fc7198b2e974,5,5,"Massive hit, every student finished their box",Triet,2026-05-28T10:44:32.476918+00:00
+2b6ebbe2-cece-4a97-bbf1-ade7b7c3cf3b,63a97128-5669-454d-8ff0-2b28f7b3f691,2026-04-29,e71c77e8-e205-46d6-84ba-d3640c597403,5,5,"Students loved the broth, very popular",Jessie,2026-05-28T10:44:32.476918+00:00
+17df2e15-a991-4dd2-ba8a-a4c94e278a79,63a97128-5669-454d-8ff0-2b28f7b3f691,2026-04-29,153171b9-6091-4757-b6d2-06c77169e17e,4,4,"Good portion size, no complaints",Jessie,2026-05-28T10:44:32.476918+00:00
+cbb7f078-d961-42bc-9718-ec2c897647d5,63a97128-5669-454d-8ff0-2b28f7b3f691,2026-04-29,5b69866b-150a-465b-b7c6-89593c55ae77,3,3,Decent but students preferred the udon,Jessie,2026-05-28T10:44:32.476918+00:00
+ce6f7a3e-6049-4600-910a-7dd82fcffba0,63a97128-5669-454d-8ff0-2b28f7b3f691,2026-04-29,c8dcf95c-2c5a-45b3-ad2e-4f276940f1e0,2,3,"Too heavy, several students left half their box",Jessie,2026-05-28T10:44:32.476918+00:00
+ca0292fc-bb7e-49e1-ac6f-50b5baf5b133,566a9cde-42d1-45d3-b8c0-2a752c06e48b,2026-04-27,8dec9d07-881d-4a25-9fb8-142bbfde9d24,5,5,"Always a favourite, students were very happy",Lucian,2026-05-28T10:44:32.476918+00:00
+ab0a2db9-bb10-4732-a29f-7c0db50db1f3,566a9cde-42d1-45d3-b8c0-2a752c06e48b,2026-04-27,93f273b7-00b9-480e-b1d0-bfdd1f1ceea3,4,4,"Popular, good portions",Lucian,2026-05-28T10:44:32.476918+00:00
+7661f826-6467-42cf-b799-7fb208d226ce,566a9cde-42d1-45d3-b8c0-2a752c06e48b,2026-04-27,a2847786-0c63-4475-91a4-a209603b871c,2,2,Arrived lukewarm and bland — students weren't impressed,Lucian,2026-05-28T10:44:32.476918+00:00
+81f45d57-9957-466b-a321-d2a4fbd519b9,566a9cde-42d1-45d3-b8c0-2a752c06e48b,2026-04-27,6b028def-1313-46cf-be69-10875ce182cd,3,3,Fine but students preferred the katsu and karaage,Lucian,2026-05-28T10:44:32.476918+00:00
+fa796818-38ec-4f43-8925-528f8c501c07,e15a3982-3e8a-456e-b92e-2d5786fdbe79,2026-04-27,1229f003-8398-4935-af56-994cc5d3c876,5,5,"Best meal of the week, students asking for it again",Claire,2026-05-28T10:44:32.476918+00:00
+6a2dead6-36d6-4db8-a50f-d7941d9cad38,e15a3982-3e8a-456e-b92e-2d5786fdbe79,2026-04-27,9d929e72-a53b-4138-990d-db39b5d025e3,4,4,"Fun and filling, went down well",Claire,2026-05-28T10:44:32.476918+00:00
+94abf36b-c074-4ece-b4f1-69ccf86f8871,e15a3982-3e8a-456e-b92e-2d5786fdbe79,2026-04-27,42a9180a-4643-434b-b1d5-3e9777442c8c,1,3,"Students barely touched it — not filling enough for teenagers, would not order again",Claire,2026-05-28T10:44:32.476918+00:00
+ecb85d22-c5fd-47e3-a048-2f52372e0469,e15a3982-3e8a-456e-b92e-2d5786fdbe79,2026-04-27,3db6d85c-9802-4890-8348-0419d3b7d83c,4,4,"Popular, no complaints",Claire,2026-05-28T10:44:32.476918+00:00
