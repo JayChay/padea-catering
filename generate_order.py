@@ -247,19 +247,24 @@ def select_meals(caterer: dict, sessions_for_caterer: list, menu_items: list) ->
     else:
         max_items = 4
 
-    # Get recent feedback for this caterer
+    # Get recent feedback for this caterer's menu items only
+    menu_item_ids = {item["id"]: item["name"] for item in menu_items}
     feedback_resp = (
         sb.table("feedback")
-        .select("menu_item_id,overall_rating,quality_rating,notes")
+        .select("menu_item_id,overall_rating,quality_rating,notes,session_date")
+        .in_("menu_item_id", list(menu_item_ids.keys()))
+        .order("created_at", desc=True)
+        .limit(20)
         .execute()
         .data
     )
-    menu_item_ids = {item["id"]: item["name"] for item in menu_items}
     feedback_text = ""
     if feedback_resp:
-        for f in feedback_resp[:20]:  # last 20 feedback entries
+        for f in feedback_resp:
             item_name = menu_item_ids.get(f["menu_item_id"], "unknown")
             feedback_text += f"  - {item_name}: {f['overall_rating']}/5"
+            if f["quality_rating"]:
+                feedback_text += f" (quality: {f['quality_rating']}/5)"
             if f["notes"]:
                 feedback_text += f" — {f['notes']}"
             feedback_text += "\n"
