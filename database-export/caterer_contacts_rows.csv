@@ -1,0 +1,7 @@
+id,caterer_id,name,email,role,cc_on_orders
+1118ff61-790a-4cc6-a9fb-828d5c860fc3,da3adaa4-56d0-470d-bafa-f8929968ffcb,James Chern,dylanchern808@gmail.com,chef,false
+28ce405d-8f3c-4b67-af47-32513acd8785,14a96d15-6b99-438a-be13-c7513b5dfbe4,Big Mom,hellopadea@gmail.com,primary,true
+501ea859-4068-4014-b05c-16a9ccec79d9,08c603fb-9bf4-4555-83c0-e785d29aaca8,Medium Giraffe,dylan@padea.com.au,chef,true
+71683c72-5484-4658-9885-c2474d1c2a30,df375fbb-415f-49a4-b4e4-377c3252d453,Carmen Gabrielle,carmen@padea.com.au,primary,true
+c687d052-75fe-4d6d-a89b-d6d63652ee94,da3adaa4-56d0-470d-bafa-f8929968ffcb,Dylan Chern,cherndylan@gmail.com,primary,true
+cc3b6bff-3ea6-4a08-b52f-8838d48531ea,08c603fb-9bf4-4555-83c0-e785d29aaca8,Big Chicken,carmengabrielleee@gmail.com,primary,true

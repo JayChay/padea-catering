@@ -1,0 +1,5 @@
+id,name,region,price_per_item,price_includes_gst,delivery_fee,delivery_fee_type,min_order_4_items,min_order_5_items,min_order_6_items
+08c603fb-9bf4-4555-83c0-e785d29aaca8,Guzman y Gomez,Central Brisbane,15.00,true,50.00,per_trip,20,25,30
+14a96d15-6b99-438a-be13-c7513b5dfbe4,Kenko Sushi House,West Brisbane,5.50,true,10.00,per_school_per_trip,35,40,45
+da3adaa4-56d0-470d-bafa-f8929968ffcb,Terrific Noodles,South Brisbane,20.50,false,30.00,per_school_per_trip,10,20,30
+df375fbb-415f-49a4-b4e4-377c3252d453,Lakehouse Victoria Point,Redlands,35.00,false,0.00,per_trip,15,20,25

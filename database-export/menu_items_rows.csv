@@ -1,0 +1,41 @@
+id,caterer_id,name,is_gf,is_df,is_nf,is_vo,contains_pork,contains_shellfish,contains_beef,contains_fish,contains_red_meat
+09041330-53ef-4c48-9582-fc7198b2e974,df375fbb-415f-49a4-b4e4-377c3252d453,Fried Chicken Burger + Chips,false,false,true,false,false,false,false,false,false
+0a00d9e2-7780-4483-b1c6-fcddee11f33f,da3adaa4-56d0-470d-bafa-f8929968ffcb,Stir-fry Noodles topped with Chicken,true,true,true,false,false,false,false,false,false
+0cad5306-c144-46b0-960c-8881a4e33d23,da3adaa4-56d0-470d-bafa-f8929968ffcb,Chinese Honey Soy Noodles,false,true,false,false,false,false,false,false,false
+1229f003-8398-4935-af56-994cc5d3c876,08c603fb-9bf4-4555-83c0-e785d29aaca8,Grilled Chicken Burrito,false,false,false,false,false,false,false,false,false
+13a86e21-78f6-4d30-907b-f3895464008c,08c603fb-9bf4-4555-83c0-e785d29aaca8,Chicken Enchilada,true,true,false,false,false,false,false,false,false
+153171b9-6091-4757-b6d2-06c77169e17e,da3adaa4-56d0-470d-bafa-f8929968ffcb,Mie Goreng,true,true,true,true,false,false,false,false,false
+1c2d8764-05d8-45f4-841c-9ff3d283e9cf,08c603fb-9bf4-4555-83c0-e785d29aaca8,Pulled pork burrito bowl,true,false,true,true,true,false,false,false,false
+2d78ca19-ab1f-412d-9284-f45b2bbf0310,df375fbb-415f-49a4-b4e4-377c3252d453,Japanese Chicken Curry,false,true,true,true,false,false,false,false,false
+305ef8f1-8e6e-4146-b76a-27467a7283ff,df375fbb-415f-49a4-b4e4-377c3252d453,Sweet and Sour Chicken,true,true,true,false,false,false,false,false,false
+3d8a2699-c9da-40d7-b9df-7db8e7ea2626,da3adaa4-56d0-470d-bafa-f8929968ffcb,Grilled Pork Vermicelli Salad,true,true,true,true,true,false,false,false,false
+3db6d85c-9802-4890-8348-0419d3b7d83c,08c603fb-9bf4-4555-83c0-e785d29aaca8,Cali Burrito,false,false,false,false,false,false,false,false,false
+42a9180a-4643-434b-b1d5-3e9777442c8c,08c603fb-9bf4-4555-83c0-e785d29aaca8,Caesar Salad,true,true,true,true,false,false,false,false,false
+44415c2c-92f6-486f-97d9-d6dc78e11da8,df375fbb-415f-49a4-b4e4-377c3252d453,Fish Taco Bowl,false,false,true,false,false,false,false,true,false
+47eb1833-ac3d-4ad0-8633-269fe9f4d03e,df375fbb-415f-49a4-b4e4-377c3252d453,Classic Cream Pasta,false,false,true,true,false,false,false,false,false
+4a6cf5fc-db5d-4f8a-91bc-bfc337f13712,da3adaa4-56d0-470d-bafa-f8929968ffcb,Lemongrass Grilled Beef and Noodles,true,true,true,true,false,false,true,false,true
+59cc7316-0b9d-4d72-805c-5036e3cf6328,14a96d15-6b99-438a-be13-c7513b5dfbe4,Lamb wrap,false,false,true,false,false,false,false,false,true
+5b69866b-150a-465b-b7c6-89593c55ae77,14a96d15-6b99-438a-be13-c7513b5dfbe4,Chinese Honey Soy Noodles,false,true,false,false,false,false,false,false,false
+650d55b6-441d-412d-b6c3-73fe2e2177b8,14a96d15-6b99-438a-be13-c7513b5dfbe4,Beef Fried Rice,true,true,false,true,false,false,true,false,true
+6a6d3b80-7ed1-4bba-9755-cfb879e9b0fb,df375fbb-415f-49a4-b4e4-377c3252d453,"Chicken, Bacon, Avo Wrap",false,false,false,true,true,false,false,false,false
+6b028def-1313-46cf-be69-10875ce182cd,14a96d15-6b99-438a-be13-c7513b5dfbe4,Sweet and Sour Chicken,true,true,false,false,false,false,false,false,false
+6de6949d-694d-4f30-9e93-c644d7183194,14a96d15-6b99-438a-be13-c7513b5dfbe4,Teriyaki Salmon rice bowl,true,true,true,true,false,false,false,true,false
+71f631e4-3501-465d-9d42-d8276629d4d6,da3adaa4-56d0-470d-bafa-f8929968ffcb,Creamy Garlic Beef Noodles,false,false,false,true,false,false,true,false,true
+7bc94883-dbcf-426a-9513-b04f30a73f9c,14a96d15-6b99-438a-be13-c7513b5dfbe4,"Chicken Parmi, chips and salad",false,true,true,false,false,false,false,false,false
+805330a3-b83c-4257-b34b-046f95abe802,df375fbb-415f-49a4-b4e4-377c3252d453,Korean Beef Bulgogi Rice Bowl,true,true,true,false,false,false,true,false,true
+8dec9d07-881d-4a25-9fb8-142bbfde9d24,14a96d15-6b99-438a-be13-c7513b5dfbe4,Japanese Chicken Katsu,false,false,true,true,false,false,false,false,false
+93f273b7-00b9-480e-b1d0-bfdd1f1ceea3,14a96d15-6b99-438a-be13-c7513b5dfbe4,Chicken Karaage ricebowl,false,true,true,true,false,false,false,false,false
+9947ed18-fda3-4f39-9e7a-e602b6a4fea7,df375fbb-415f-49a4-b4e4-377c3252d453,Gnocchi in Tomato Sauce,false,false,true,true,false,false,false,false,false
+9a47ba3c-7352-4332-986a-0f3a9e57693b,da3adaa4-56d0-470d-bafa-f8929968ffcb,Beef Pad Thai,false,false,false,false,false,false,true,false,true
+9d929e72-a53b-4138-990d-db39b5d025e3,08c603fb-9bf4-4555-83c0-e785d29aaca8,Nachos,true,false,false,true,false,false,false,false,false
+9e5fffbf-d5fc-45bb-b296-43bc094675aa,08c603fb-9bf4-4555-83c0-e785d29aaca8,Chicken Quesadilla,false,false,false,false,false,false,false,false,false
+a2847786-0c63-4475-91a4-a209603b871c,14a96d15-6b99-438a-be13-c7513b5dfbe4,Creamy Udon,false,false,false,false,false,false,false,false,false
+a7e4e03c-63f2-462a-b623-47bf32c14e25,df375fbb-415f-49a4-b4e4-377c3252d453,Shrimp Fried Rice,true,true,false,false,false,true,false,false,false
+b6e52185-1392-4708-8f32-c820da7d43ff,08c603fb-9bf4-4555-83c0-e785d29aaca8,Breakfast Tacos,false,false,true,true,true,false,false,false,false
+c59901ab-5692-4baf-b1a1-b25300ae0c61,14a96d15-6b99-438a-be13-c7513b5dfbe4,Mongolian Beef and Rice,false,false,false,false,false,false,true,false,true
+c8dcf95c-2c5a-45b3-ad2e-4f276940f1e0,da3adaa4-56d0-470d-bafa-f8929968ffcb,Bacon Carbonara,false,false,false,false,true,false,false,false,false
+d5dd2692-dbc3-4c42-a1dd-fa82b2061e29,08c603fb-9bf4-4555-83c0-e785d29aaca8,Nacho Fries,true,false,false,true,false,false,false,false,false
+e71c77e8-e205-46d6-84ba-d3640c597403,da3adaa4-56d0-470d-bafa-f8929968ffcb,Spicy Miso Udon,false,true,false,true,false,false,false,false,false
+e9213370-a9ca-49a9-b128-621e0bc7acc6,08c603fb-9bf4-4555-83c0-e785d29aaca8,Crispy Chicken Taco,false,false,false,false,false,false,false,false,false
+eec3783e-e4ce-42c9-9439-7e2317da9a74,da3adaa4-56d0-470d-bafa-f8929968ffcb,Spaghetti meatballs,false,false,true,false,false,false,true,false,true
+fd7fcd01-603b-4eef-8cac-b26aed3004ea,df375fbb-415f-49a4-b4e4-377c3252d453,Spaghetti Bolognese + Garlic Bread,false,false,true,false,false,false,true,false,true
